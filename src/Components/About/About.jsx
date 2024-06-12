@@ -9,7 +9,9 @@ const About = () => {
         div.innerHTML = `
         <p class="ml-1 p-3 bg-base-300 rounded-full">${inputValue}</p>
         `
-        commentContainer.appendChild(div);
+        if (inputValue) {
+            commentContainer.appendChild(div);
+        }
         inputText.value = '';
     }
     return (
@@ -26,10 +28,10 @@ const About = () => {
                 <p className="mb-3"><b>Book Vibe</b> was born out of a passion for literature. Our founder, <b>Gengis Khan</b>, started this journey because his <b>thoughts</b>. Since then, we have grown into a beloved local bookstore with a global reach.</p>
 
                 <h3 className="font-semibold underline">What Makes Us Unique:</h3>
-                <p className="mb-3"> At <b>Book Vibe</b>, we pride ourselves on offering <b>Various types of books</b>, whether it's rare first editions, a wide selection of genres, or our cozy reading nook where you can relax with a cup of coffee and a good book.</p>
+                <p className="mb-3"> At <b>Book Vibe</b>, we pride ourselves on offering <b>Various types of books</b>, whether it is rare first editions, a wide selection of genres, or our cozy reading nook where you can relax with a cup of coffee and a good book.</p>
 
                 <h3 className="font-semibold underline">Our Community</h3>
-                <p>We believe in giving back to our community. That's why we alyaws try to offer the best prints. We host regular events such as book signings, reading clubs, and literary workshops to foster a vibrant community of book lovers.</p>
+                <p>We believe in giving back to our community. That is why we alyaws try to offer the best prints. We host regular events such as book signings, reading clubs, and literary workshops to foster a vibrant community of book lovers.</p>
             </div>
             <div id="comment-container" className="ml-5 mr-2 border rounded-xl mt-7">
                 <div className="flex work-sans ml-4 my-4">
