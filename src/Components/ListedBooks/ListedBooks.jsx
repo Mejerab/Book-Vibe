@@ -63,7 +63,7 @@ const ListedBooks = () => {
         }
     }, [allBookDatas]);
     return (
-        <div className="mt-5">
+        <div className="mt-5" >
             <h2 className="work-sans text-center font-bold py-6 mr-2 ml-4 rounded-lg bg-base-200 text-2xl">Books</h2>
 
             <div className="text-center mt-7">

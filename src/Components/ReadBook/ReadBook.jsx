@@ -14,7 +14,7 @@ const ReadBook = ({ readItem }) => {
             <div className="p-6 bg-base-200 rounded-lg mr-7">
                 <img className="w-40" src={image} alt="" />
             </div>
-            <div className='w-full'>
+            <div className='w-full' >
                 <h3 className="playfair-dis font-bold text-2xl">{bookName}</h3>
                 <p className="text-[#131313B3] font-medium py-3">By: {author}</p>
                 <p className="text-[#131313B3]"></p>

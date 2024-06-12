@@ -26,7 +26,7 @@ const BookDetail = () => {
                 progress: undefined,
                 theme: "light",
                 transition: Bounce
-            });
+            })
         }
         else {
             toast.error(' You already added this!', {
@@ -100,7 +100,7 @@ const BookDetail = () => {
                     <p className="my-3">
                         <h5 className="inline font-bold text-black mr-2">Review:</h5>{review}
                     </p>
-                    <p className="flex my-6"><span className="font-bold text-black pr-3">Tags:</span>
+                    <p className="flex  my-6"><span className="font-bold text-black pr-3">Tags:</span>
                         <ul className="flex -mt-2">
                             {
                                 tags.map((tag, idx) => <li key={idx} className="mr-3 py-2 px-3 bg-base-200 rounded-full text-[#23BE0A]">#{tag}</li>)
