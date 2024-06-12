@@ -12,7 +12,7 @@ const Banner = () => {
             <button onClick={goToList} className="btn work-sans px-5 text-white bg-[#23BE0A]">View your list</button>
         </div>
         <div className="lg:mr-10 lg:w-auto w-96">
-            <img src="/images/pngwing 1.png" alt="" />
+            <img src="https://i.ibb.co/NKcxZS2/pngwing-1.png" alt="" />
         </div>
     </div>
     );
