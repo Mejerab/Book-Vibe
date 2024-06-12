@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 const PagesToRead = () => {
     const [names, setNames] = useState([]);
     const [pages, setpages] = useState([]);
-    const [datas, setDatas] = useState([]);
     const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
     const allData = useLoaderData();
     useEffect(() => {
@@ -24,7 +23,6 @@ const PagesToRead = () => {
             setpages(nothingPage);
         }
         }, [allData])
-    console.log(datas);
     const data=[
         {
             name: `${names[0]}`,
@@ -76,7 +74,7 @@ const PagesToRead = () => {
         return <path d={getPath(x, y, width, height)} stroke="none" fill={fill} />;
     };
     return (
-        <div className='bg-base-200 w-auto flex justify-center pt-12 mt-5 ml-5 w-[1207px] rounded-xl'>
+        <div className='bg-base-200 w-auto flex justify-center pt-12 mt-5 ml-5 rounded-xl'>
             <BarChart className='work-sans text-xs'
                 width={2000}
                 height={500}
