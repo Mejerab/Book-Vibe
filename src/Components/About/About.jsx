@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <div className="text-right mr-4 mt-4 work-sans relative">
                 <input id="input" type="text" placeholder="Type your comment" className="input  rounded-full input-bordered w-full py-[30px] max-w-sm" />
-                <button onClick={post} className="btn btn-accent rounded-full absolute top-1.5 right-3">Accent</button>
+                <button onClick={post} className="btn btn-accent rounded-full absolute top-1.5 right-3">Send</button>
             </div>
         </div>
     );
